@@ -5,9 +5,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/enam/', // Replace with your actual GitHub repository name
   build: {
-    outDir: 'dist',
-    rollupOptions: {
-      input: './index.html',
-    },
+    outDir: 'docs', // Change from 'dist' to 'docs'
   },
 });
